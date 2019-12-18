@@ -193,7 +193,7 @@ namespace StudentExercisesPart5
                 }
             }
         }
-        // This needs to update and create a student exercise () Add
+       // This needs to update and create a student exercise() Add
         public void AddAssignment(int studentId, int exerciseId)
         {
             using (SqlConnection conn = Connection)
@@ -201,7 +201,7 @@ namespace StudentExercisesPart5
                 conn.Open();
                 using (SqlCommand cmd = conn.CreateCommand())
                 {
-                    cmd.CommandText = @"UPDATE Student SET exerciseId = @exerciseId
+                    cmd.CommandText = @"UPDATE StudentExercise SET exerciseId = @exerciseId
                                      WHERE Id = @id";
                     cmd.Parameters.Add(new SqlParameter("@exerciseId", exerciseId));
                     cmd.Parameters.Add(new SqlParameter("@id", studentId));

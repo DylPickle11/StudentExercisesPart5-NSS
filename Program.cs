@@ -58,7 +58,7 @@ namespace StudentExercisesPart5
 
             // Assign an existing exercise to an existing student
 
-            Repo.AddAssignment(2, 4);
+            //Repo.AddAssignment(2, 4);
 
 
 
