@@ -1,0 +1,11 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace StudentExercisesPart5
+{
+    class Repository
+    {
+        //Query the Database for All Exercises
+    }
+}
